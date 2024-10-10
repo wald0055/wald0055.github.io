@@ -1,0 +1,96 @@
+.header {
+    background-color: #FAB1B1;
+    color: black;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #FAB1B1;
+    color: black;
+    padding: 30px;
+}
+
+body {
+    background-color: #FACAB1;
+}
+
+.nav ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #FACAB1;
+}
+.nav ul li a {
+    text-decoration: none;
+    background-color:#FAB1B1;
+    border: 1px black;
+    color: black;
+}
+
+.nav ul li a:hover {
+    background-color:#FAE2B1;
+    border: #FAE2B1;
+}
+
+.nav2 ul {
+        list-style-type: square;
+    }
+    
+    .nav2 ul li a {
+        text-decoration: none;
+        background-color:#FAB1B1;
+        border: 1px black;
+        color: black;
+    }
+    
+    .nav2 ul li a:hover {
+        background-color:#FAE2B1;
+        border: #FAE2B1;
+    }
+    
+    
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FACAB1;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .head3 {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+
+        .form2 {
+            text-align: center;
+        }
