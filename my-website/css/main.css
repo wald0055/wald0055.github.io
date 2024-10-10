@@ -1,66 +1,57 @@
-.header {
-    background-color: #FAB1B1;
-    color: black;
-    padding: 30px;
-}
-
-.footer {
-    background-color: #FAB1B1;
-    color: black;
-    padding: 30px;
-}
-
 body {
-    background-color: #FACAB1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #6871A7;
+}
+
+.header, footer {
+    background-color: #09355B;
+    color: #5C6ED1;
+    padding: 30px;
 }
 
 .nav ul {
-    list-style-type: square;
-}
-
-ul li:nth-child(odd) {
-    background-color: #FACAB1;
+    list-style-type: none;
 }
 .nav ul li a {
     text-decoration: none;
-    background-color:#FAB1B1;
-    border: 1px black;
-    color: black;
+    background-color:#09355B;
+    border: 2px solid black;
+    color: #5C6ED1;
+    padding: 8px;
 }
 
 .nav ul li a:hover {
-    background-color:#FAE2B1;
-    border: #FAE2B1;
+    background-color:#072641;
+    border:2px solid #5C6ED1;
 }
 
 .nav2 ul {
-        list-style-type: square;
+        list-style-type: none;
     }
     
     .nav2 ul li a {
         text-decoration: none;
-        background-color:#FAB1B1;
-        border: 1px black;
-        color: black;
+        background-color:#09355B;
+        border: 2px solid black;
+        color: #5C6ED1;
+        padding: 8px;
     }
     
     .nav2 ul li a:hover {
-        background-color:#FAE2B1;
-        border: #FAE2B1;
+        background-color:#072641;
+        border: 2px solid #5C6ED1;
     }
     
     
-    body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
+   
         .form-container {
             max-width: 500px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #FACAB1;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: #6871A7;
+            box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
         .head3 {
@@ -75,20 +66,20 @@ ul li:nth-child(odd) {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid #09355B;
             border-radius: 4px;
         }
         button {
             width: 100%;
             padding: 10px;
-            background-color: #28a745;
+            background-color: #09355B;
             color: #fff;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #218838;
+            background-color: #072641;
         }
 
         .form2 {
