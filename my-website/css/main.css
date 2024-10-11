@@ -13,6 +13,7 @@ body {
 
 .nav ul {
     list-style-type: none;
+    display: flex;
 }
 .nav ul li a {
     text-decoration: none;
@@ -20,6 +21,7 @@ body {
     border: 2px solid black;
     color: #5C6ED1;
     padding: 8px;
+    display: block;
 }
 
 .nav ul li a:hover {
@@ -44,8 +46,7 @@ body {
         border: 2px solid #5C6ED1;
     }
     
-    
-   
+
         .form-container {
             max-width: 500px;
             margin: 0 auto;
@@ -54,9 +55,11 @@ body {
             box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+ 
         .head3 {
             text-align: center;
         }
+
         label {
             font-weight: bold;
             display: block;
@@ -84,4 +87,59 @@ body {
 
         .form2 {
             text-align: center;
+        }
+
+        .my-image {
+            padding: 0px;
+        }
+        .my-image1 {
+            padding: 0px;
+        }
+        .my-image2 {
+            padding: 0px;
+        }
+        .my-image3 {
+            padding: 0px;
+        }
+        .my-image4 {
+            padding: 0px;
+        }
+        .my-image5 {
+            padding: 0px;
+        }
+        .my-image6 {
+            padding: 0px;
+        }
+        .my-image7 {
+            padding: 0px;
+        }
+        .my-image8 {
+            padding: 0px;
+        }
+        .my-image9 {
+            padding: 0px;
+        }
+        .my-image10 {
+            padding: 0px;
+        }
+        .my-image11 {
+            padding: 0px;
+        }
+        .my-image12 {
+            padding: 0px;
+        }
+        .my-image113 {
+            padding: 0px;
+        }
+        .my-image14 {
+            padding: 0px;
+        }
+        .my-image15 {
+            padding: 0px;
+        }
+        .my-image16 {
+            padding: 0px;
+        }
+        .my-image17 {
+            padding: 0px;
         }
