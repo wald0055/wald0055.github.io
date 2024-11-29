@@ -100,7 +100,7 @@ h2{
 }
 
 img{
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
@@ -136,6 +136,12 @@ nav li a {
 nav li:nth-child(2){
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+}
+/* Portfolio*/
+
+.image {
+    max-height: 100px;
+    padding: 0px;
 }
 
 article img {
