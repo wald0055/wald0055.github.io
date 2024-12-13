@@ -1,70 +1,48 @@
-<!-- Evan's final project -->
-</body>
-</html>
+<!-- Evan's Final Project -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="main.css">
-    <!-- Creates Border for Table Inserted Below -->
-    <style>
-        table, th, td {border:1px solid black;}
-
-        .button {
-            border: none;
-            color: white;
-            padding: 16px 28px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-.button1 {font-size: 36px; background-color: #C78B07;}
-.button2 {font-size: 28px; background-color: black;}
-.button3 {font-size: 28px; background-color: black;}
-.button4 {font-size: 28px; background-color: black;}
-.button5 {font-size: 28px; background-color: black;}
-.button6 {font-size: 28px; background-color: black;}
-.button7 {font-size: 28px; background-color: none; color: black;}
-
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
-<!-- Displays Navigation Bar Linking to Separate Pages of Website -->
-
 <body>
-    <nav>
-        <div id="logo"><img src="images/logo.png" alt="logo" height="44" /></div>
-
-        <div id="navItems">
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About_Us.html">About Us</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Team.html">Team</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+    
+ <!-- Displays Navigation Bar Linking to Separate Pages of Website -->    
+  
+    <div class="nav-info">
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Picture of the Three Star Media Logo">
+                </div>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="#about-us-section">About</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#team-section">Team</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder=" Search" name="search">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </nav>
         </div>
-        <!-- Creates a Search Bar Inside Navigation Bar -->
-        <div class="searchbar">
-            <input type="text" placeholder="Search..">
-        </div>
-    </nav>
-
-    <!-- Creates a Wrapper Class Containing Header and Image -->
+    </div>
+ 
+    <!-- Creates a Wrapper Class-->
     <div class="wrapper">
 
-        <div class="container" style="display: inline-block;">
+        <div class="container">
             <header>
                 <img src="images/main-banner.jpg" alt="main-banner">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
                 <button class="button button1">Connect with us</button>
-                <!-- <button type="button">Connect with us</button> -->
             </header>
         </div>
 
@@ -178,7 +156,7 @@
                 <button type="Submit">Send</button>
             </form>
 
-             <!-- Inserts Table Displaying Available Hours -->
+             <!-- Inserts Table Displaying Hours Open -->
              <table>
                 <tr>
                     <th>Days</th>
@@ -197,7 +175,7 @@
             </table>
         </section>
 
-            <!-- Displays Embedded Map Linking User to Current Location -->
+            <!-- Displays Embedded Map of Algonquin College -->
             <section>
                 <h2>Location</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.881971314758!2d-75.7578513849452!3d45.351194779099785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718c5998a3b%3A0x78382f39c3e19269!2sAlgonquin%20College%20Residence!5e0!3m2!1sen!2sca!4v1680107228470!5m2!1sen!2sca" ></iframe>
